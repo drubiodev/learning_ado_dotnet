@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
+using learn_ado.Entities;
 using Microsoft.Data.SqlClient;
 
 namespace learn_ado.Examples
@@ -63,12 +64,5 @@ namespace learn_ado.Examples
                 System.Console.WriteLine($"{item.FirstName} {item.LastName} ({item.CreatedDate})");
             }
         }
-    }
-
-    class Employee
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime? CreatedDate { get; set; }
     }
 }
