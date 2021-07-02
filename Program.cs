@@ -9,7 +9,7 @@ namespace learn_ado
         {
             var connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TimeSheets;Integrated Security=True";
 
-            GetFieldValueExample.RunWithExtension(connectionString);
+            MultipleResultSets.Run(connectionString);
         }
     }
 }

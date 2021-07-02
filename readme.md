@@ -70,3 +70,9 @@ cmd.Parameters.Add(new
 - `GetFieldValue<>()` (Automatic conversion)
 - still need to call GerOrdinal
 - does not handle nullable fields
+
+# Multiple Result Sets
+- Pass in two or more SELECT statements
+- Return two or more SELECT statemetns from stored procedure
+- Use `NextResult()` method
+- Avoid mulitple calls to database
